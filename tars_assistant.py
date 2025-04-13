@@ -10,7 +10,7 @@ import google.generativeai as genai
 
 # ====== CONFIGURAÇÃO DA API DO GEMINI ======
 # API Key visível no código
-API_KEY = "AIzaSyDSautrrY8zzFqO3vQWdyXRXUUU0454iz4"
+API_KEY = "Sua Chave API"
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-2.0-flash")
 
